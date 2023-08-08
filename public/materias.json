@@ -1,0 +1,86 @@
+{ "3116154847":"Maria Elena",
+  "Calculo Integral":{
+    "Codigo": "1000005-M",
+    "Creditos":4,
+    "Horario":{
+      "Clase 1":{
+        "Dia":"Miercoles",
+        "Hora":"12:00pm"
+      },
+      "Clase 2":{
+        "Dia":"Viernes",
+        "Hora":"12:00pm"
+      },
+      "Clase 3":{
+        "Dia":"Sabado",
+        "Hora":"08:00am"
+      }
+    }
+  },
+  "Fundamentos de Economia":{
+    "Codigo":"3011020",
+    "Creditos":3,
+    "Horario":{
+      "Clase 1":{
+        "Dia":"Lunes",
+        "Hora":"10:00am"
+      }
+    }
+  },
+  "Investigacion de Operaciones 1":{
+    "Codigo":"3007323",
+    "Creditos":3,
+    "Horario":{
+      "Clase 1":{
+        "Dia":"Lunes",
+        "Hora":"04:00pm"
+      },
+      "Clase 2":{
+        "Dia":"Viernes",
+        "Hora":"10:00am"
+      }
+    }
+  },
+  "Estructuras de Datos":{
+    "Codigo":"3010407",
+    "Creditos":3,
+    "Horario":{
+      "Clase 1":{
+        "Dia":"Martes",
+        "Hora":"08:00am"
+      },
+      "Clase 2":{
+        "Dia":"Jueves",
+        "Hora":"10:00am"
+      }
+    }
+  },
+  "Catedra Gerardo Botero":{
+    "Codigo":"3010836",
+    "Creditos":2,
+    "Horario":{
+      "Clase 1":{
+        "Dia":"Martes",
+        "Hora":"06:00pm"
+      },
+      "Clase 2":{
+        "Dia":"Jueves",
+        "Hora":"06:00pm"
+      }
+    }
+  },
+  "Ingenieria de Software":{
+    "Codigo":"3007852",
+    "Creditos":3,
+    "Horario":{
+      "Clase 1":{
+        "Dia":"Jueves",
+        "Hora":"02:00pm"
+      },
+      "Clase 2":{
+        "Dia":"Jueves",
+        "Hora":"04:00pm"
+      }
+    }
+  }
+}
