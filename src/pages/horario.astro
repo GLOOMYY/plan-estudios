@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import TablaHorario from '../components/TablaHorario.astro'
+
 const title = "Horario";
 ---
 <style>
@@ -17,91 +19,5 @@ const title = "Horario";
   }
 </style>
 <Layout title={title}>
-  <h1>Prueba</h1>
-  <table class="table-auto" >
-    <thead>
-      <tr>
-        <th>Hora/Día</th>
-        <th>Lunes</th>
-        <th>Martes</th>
-        <th>Miercoles</th>
-        <th>Jueves</th>
-        <th>Viernes</th>
-        <th>Sabado</th>
-        <th>Domingo</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <th>06:00am<th/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-      </tr>
-      <tr>
-        <th>08:00am<th/>
-        <td>N/A<td/>
-        <td>Estructuras de Datos<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-      </tr>
-      <tr>
-        <th>10:00am<th/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-      </tr>
-      <tr>
-        <th>12:00pm<th/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-      </tr>
-      <tr>
-        <th>14:00pm<th/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-      </tr>
-      <tr>
-        <th>16:00pm<th/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-      </tr>
-      <tr>
-        <th>18:00pm<th/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-        <td>N/A<td/>
-      </tr>
-
-    </tbody>
-  </table>
+  <TablaHorario />
 </Layout>
